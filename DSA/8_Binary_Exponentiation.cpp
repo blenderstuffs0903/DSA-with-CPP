@@ -26,7 +26,7 @@ double power_iterative(double a, int n) {
 
 int main() {
     int a = 2, n = -2;
-    cout << "Recursive: " << power_recursive(a, n) << endl;
+    // cout << "Recursive: " << power_recursive(a, n) << endl;
     cout << "Iterative: " << power_iterative(a, n) << endl;
     return 0;
 }
